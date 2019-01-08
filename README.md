@@ -2,9 +2,9 @@
 
 # DeepTraffic: MIT Deep Reinforcement Learning Competition
 
-[DeepTraffic](https://selfdrivingcars.mit.edu/deeptraffic) - [Visualization](https://selfdrivingcars.mit.edu/deeptraffic-visualization) - [Leaderboard](https://selfdrivingcars.mit.edu/deeptraffic-leaderboard) - [Documentation](https://selfdrivingcars.mit.edu/deeptraffic-documentation) - [Paper](https://arxiv.org/abs/1801.02805) - [MIT Deep Learning](https://deeplearning.mit.edu/)
+[DeepTraffic](https://selfdrivingcars.mit.edu/deeptraffic) - [Visualization](https://selfdrivingcars.mit.edu/deeptraffic-visualization) - [Leaderboard](https://selfdrivingcars.mit.edu/deeptraffic-leaderboard) - [Documentation](https://selfdrivingcars.mit.edu/deeptraffic-documentation) - [Paper](https://arxiv.org/abs/1801.02805) - [MIT Deep Learning](https://deeplearning.mit.edu/) [ [GitHub](https://github.com/lexfridman/mit-deep-learning) | [Website](https://deeplearning.mit.edu/) ]
 
-DeepTraffic is a deep reinforcement learning competition hosted as part of the [MIT Deep Learning](https://deeplearning.mit.edu) courses. The goal is to create a neural network that drives a vehicle (or multiple vehicles) as fast as possible through dense highway traffic. Top 10 submissions are listed on the  [leaderboard](https://selfdrivingcars.mit.edu/deeptraffic-leaderboard/}) and you'll be able to [visualize](https://selfdrivingcars.mit.edu/deeptraffic-visualization/) your submission in the following way:
+DeepTraffic is a deep reinforcement learning competition hosted as part of the [MIT Deep Learning](https://deeplearning.mit.edu) courses. The goal is to create a neural network that drives a vehicle (or multiple vehicles) as fast as possible through dense highway traffic. Top 10 submissions are listed on the  [leaderboard](https://selfdrivingcars.mit.edu/deeptraffic-leaderboard/) and you'll be able to [visualize](https://selfdrivingcars.mit.edu/deeptraffic-visualization/) your submission in the following way:
 
 ![DeepTraffic visualization](images/deeptraffic-visualization-example.gif)
 
@@ -22,7 +22,7 @@ archivePrefix = {arXiv},
 }
 ```
 
-To get start right away, this repository provides a code snippet to insert into the code box on the [DeepTraffic site](https://selfdrivingcars.mit.edu/deeptraffic/). We'll add additional agents  as the course progresses:
+To get started right away, this repository provides a code snippet to insert into the code box on the [DeepTraffic site](https://selfdrivingcars.mit.edu/deeptraffic/). We'll add additional agents  as the course progresses:
 
 **network_basic.js**: A basic network that achieves ~66.8mph.
 
@@ -51,7 +51,7 @@ The game page consists of four different areas:
 
 - Below the coding area, you can find (1) a graph showing a moving average of the center red car’s reward, (2) a visualization of the neural network activations, and (3) buttons for training and testing your network.
 
-- Between the simulated roadway and the graphs, you can find the current image of you vehicle and some options to customize it and create a visualization of your best submisison.
+- Between the simulated roadway and the graphs, you can find the current image of you vehicle and some options to customize it and create a visualization of your best submission.
 
 The simulation area shows some basic information like the current speed of the car and the number of cars that have been passed since you opened the site. It also allows you to change the way the simulation is displayed.
 ![Display selection](http://selfdrivingcars.mit.edu/wordpress/wp-content/uploads/2017/01/normal.gif)
